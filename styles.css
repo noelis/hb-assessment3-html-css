@@ -1,11 +1,3 @@
-/* Your CSS goes here */
-
-/*Change the background color of all of the form input boxes and submit button to be yellow 
-(can you do this for all input boxes without having to stylize each one independently?)
-
-Change the text in the last name field to be bold.
-Draw a border around the instruction box.*/
-
 input {
     background-color: #ffff80;
 }
