@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <title>Skills-HTML-CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<!-- your html goes here -->
+<!-- A form that asks the user: first and last name, salary requirement,  job (dropdown), submit button  that submits the form to the URL path /application. This should be a POST request.  -->
+
+<!-- The page should have a large heading and some explanatory text -->
+<h1>Job Application</h1>
+<div class="application_info">
+    <label for="application_info">Thank you for your interest in Ubermelons.<br><br>Here you will find a list of the available roles in the company. If we find you are a great match, we will reach out to you directly for more information.</label>
+</div>
+<br>
+    <form action="file:///Users/Noelis/src/html-css/application.html" method="POST">
+        <label for="firstname" id="firstname">First Name: </label><input type="text" name="firstname" required>
+        <br>
+        <br>
+
+        <label for="lastname" id="lastname">Last Name: </label><input type="text" name="lastname" required>
+         <br>
+         <br>
+
+        <label for="salary_requirements" id="salaryreq">Salary Requirements: </label><input type="number" name="salaryreq" min="70000" max="300000" required>
+        <br>
+        <br>
+
+        <label for="selectjob" id="job">Open Jobs: </label><select name="job" required>
+            <option value="software_eng">Software Engineer</option>
+            <option value="qa_eng">QA Engineer</option>
+            <option value="product_mgr">Product Manager</option>
+        <br>
+        <br>
+        <input type="Submit">
+    </form>
+    
+</body>
+</html>
